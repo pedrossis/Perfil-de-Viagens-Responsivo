@@ -1,0 +1,13 @@
+main.container {
+    width: 80rem;
+    padding: 1.5rem 2rem;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--background-color);
+
+    & .card-photo {
+        width: 17.875rem;
+        height: 17.875rem;
+    }
+}

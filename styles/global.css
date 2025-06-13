@@ -18,10 +18,13 @@
 
 html, body {
     font-family: "Poppins", sans-serif;
-    background-color: var(--background-color);
-    max-width: 80rem;
-    max-height: 59.625rem;
+    background-color: var(--surface-color);
+    width: 100vw;
+    height: 100vh;
     color: var(--text-color-secondary);
+    margin: auto;
+    display: grid;
+    justify-content: center;
 }
 
 h1 {
@@ -45,4 +48,9 @@ h1 {
 ul li {
     list-style: none;
     line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
 }
